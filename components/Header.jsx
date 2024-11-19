@@ -8,7 +8,7 @@ const Header = () => {
     
     <Link href="/">
     <header className="m-2 p-2">
-      <h1 className="blue-gradient font-extrabold m-1 p-2">SmartPick</h1>
+      <h1 className="text-2xl font-extrabold m-1 p-2">SmartPick</h1>
     </header>
     </Link>
     

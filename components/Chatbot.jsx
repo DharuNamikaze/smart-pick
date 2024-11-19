@@ -62,12 +62,12 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="chatbot-container p-4 max-w-md mx-auto bg-gray-100 rounded-2xl shadow-lg shadow-black">
+    <div className="chatbot-container p-4 max-w-2xl mx-auto bg-gray-100 rounded-2xl shadow-lg shadow-black">
       <div className="chat-display mb-4 p-1">
         {messages.map((msg, index) => (
           <div
             key={index}
-            className={msg.sender === "user" ? "user-message text-right p-5" : "bot-message pr-5"}
+            className={msg.sender === "user" ? "user-message text-right p-3 mb-3 rounded-xl bg-gray-500 " : "bot-message  mb-3 p-3 rounded-xl bg-gray-400"}
           >
             {msg.text}
           </div>
