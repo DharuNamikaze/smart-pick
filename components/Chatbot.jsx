@@ -4,7 +4,7 @@ import "../styles/globals.css";
 
 // Replace 'YOUR_API_KEY' with your actual API key
 const genAI = new GoogleGenerativeAI("AIzaSyCfCEmZ-LRdAobq03ABMo5dJ3b8iRSERaw");
-
+ 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
