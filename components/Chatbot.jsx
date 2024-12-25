@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { marked } from "marked"; // Import marked library
 import "../styles/globals.css";
 
-const genAI = new GoogleGenerativeAI("AIzaSyCfCEmZ-LRdAobq03ABMo5dJ3b8iRSERaw");
+const genAI = new GoogleGenerativeAI("");
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
