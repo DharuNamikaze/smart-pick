@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
+    "marked": "^15.0.4",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
