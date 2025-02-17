@@ -281,9 +281,9 @@ ${productList}
               <p className="mt-2">Ask me about products or any other questions you have.</p>
               <p className="mt-1 text-sm">Try asking:</p>
               <div className="mt-2 space-y-1">
-                <p>"Find me the best gaming laptops under $1500"</p>
-                <p>"What are the top-rated wireless earbuds?"</p>
-                <p>"Search for 4K monitors for home office"</p>
+                <p>&quot;Find me the best gaming laptops under $1500&quot;</p>
+                <p>&quot;What are the top-rated wireless earbuds?&quot;</p>
+                <p>&quot;Search for 4K monitors for home office&quot;</p>
               </div>
             </div>
           )}
